@@ -1,0 +1,58 @@
+.Todo {
+  margin-top: -20px;
+}
+
+.To-do-link {
+  width: 210.699px;
+  height: 53px;
+  border-radius: 15px;
+  background: var(
+    --purple,
+    linear-gradient(27deg, #53389e 8.33%, #6941c6 91.67%)
+  );
+
+  border: none;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.To-do-link:hover {
+  background: #fff;
+  border: none;
+}
+
+.Todo .To-do-link .Text {
+  width: 120px;
+  color: #fff;
+  font-family: "Quicksand";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 5px 45px;
+  border: none;
+}
+
+.Todo .To-do-link:hover .Text {
+  color: #53389e;
+}
+
+.deleteButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: var(
+    --purple,
+    linear-gradient(27deg, #53389e 8.33%, #6941c6 91.67%)
+  );
+  margin-left: 3.3px;
+  border: none;
+}
+
+.deleteButton:hover {
+  background-color: #fff;
+}

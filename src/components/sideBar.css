@@ -1,0 +1,47 @@
+@import url("https://use.typekit.net/ocf4rtj.css");
+.sideBar {
+  background: #000;
+  width: 305px;
+  min-height: 1024px;
+  position: fixed;
+}
+
+.sideBar > .H1 {
+  position: absolute;
+  top: 34px;
+  width: 144px;
+  color: #fff;
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+}
+
+.addLinkButton {
+  width: 267.699px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: var(
+    --Gradient,
+    linear-gradient(27deg, #53389e 8.33%, #6941c6 91.67%)
+  );
+  border: none;
+  margin-top: 114px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.addLinkButton:hover {
+  background-color: white;
+  border: none;
+}
+
+.separation-line {
+  width: 262px;
+  height: 1px;
+  background: #fff;
+  margin-left: 24px;
+}
