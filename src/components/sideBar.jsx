@@ -64,7 +64,7 @@ const SideBar = (props) => {
         </svg>
       </button>
 
-      <div className="separation-line">hii </div>
+      <div className="separation-line"> </div>
 
       {showlinks}
     </div>
